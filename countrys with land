@@ -1,0 +1,8 @@
+countrys=[]
+while True:
+    country=input("Enter a counry ending in land ?")
+    if country=="stop":
+       break
+    else:
+     countrys.append(country)
+print("\ncountry list:",*countrys)
